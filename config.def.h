@@ -220,6 +220,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ TERMMOD,              XK_X,           invert,         { }       },
+ 	{ MODKEY,               XK_U,           copyurl,        {.i =  0} },
 };
 
 /*

@@ -228,7 +228,8 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ TERMMOD,              XK_I,           invert,         { }       },
-    { TERMMOD,              XK_U,           externalpipe,   { .v = openurlcmd } },
+//    { TERMMOD,              XK_U,           externalpipe,   { .v = openurlcmd } },
+ 	{ TERMMOD,               XK_U,           copyurl,        {.i =  0} },
 };
 
 /*
